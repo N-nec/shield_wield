@@ -1,0 +1,9 @@
+shield_wield_custom_inventory (Use shield_wield inventory formspec when no external inventory UI is detected) bool true
+shield_wield_slot_name (Inventory list name used for shield slot) string shield
+shield_wield_name_match (Treat items with 'shield' in itemname as shields) bool true
+shield_wield_block_reduction (Fraction of incoming front damage blocked while sneaking) float 0.6 0 1
+shield_wield_scale_by_quality (Scale shield block amount by inferred shield quality/tier) bool true
+shield_wield_tier_step (Block reduction delta per inferred shield tier step) float 0.1 0 0.5
+shield_wield_block_dot (Front-facing block threshold from -1 to 1) float 0.2 -1 1
+shield_wield_visual_scale (Default visual scale for wielditem shield entity) float 0.45 0.05 3
+shield_wield_update_interval (Seconds between shield visibility refresh checks) float 0.05 0.01 1
